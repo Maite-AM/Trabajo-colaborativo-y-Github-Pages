@@ -1,0 +1,55 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.navbar {
+  background-color: #e095e2 !important;
+  color: #ffffff;
+}
+
+body {
+  max-width: 100%;
+  margin: 0 auto;
+  overflow-x: hidden;
+  background-color: pink;
+}
+
+img {
+  border-radius: 10px;
+  border-color: aliceblue;
+}
+
+header, section {
+  margin-bottom: 40px;
+}
+
+h1,
+h2 {
+  color: #18cea6;
+}
+
+#proyectos .imagenes-proyecto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imagenes-proyecto img {
+  width: 316px;
+  height: 202px;
+  margin: 30px;
+  margin-bottom: 20px;
+}
+
+#proyectos .imagenes-proyecto p {
+  color: #555; 
+  font-size: 30px;
+}
+
+.footer {
+  height: 3em;
+  line-height: 3em;
+  text-align: center;
+  font-weight: 900;
+  background: #e095e2;
+}
